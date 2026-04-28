@@ -158,7 +158,7 @@ function AdminPlayersContent() {
                   setFormData({ ...formData, name: e.target.value })
                 }
                 placeholder="e.g., Mohamed Jaiteh"
-                className="w-full border rounded p-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full border rounded p-2 placeholder:text-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
                 required
               />
             </div>
@@ -171,7 +171,7 @@ function AdminPlayersContent() {
                   setFormData({ ...formData, position: e.target.value })
                 }
                 placeholder="e.g., Midfielder"
-                className="w-full border rounded p-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full border rounded p-2 placeholder:text-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
             </div>
             <div>
@@ -183,7 +183,7 @@ function AdminPlayersContent() {
                   setFormData({ ...formData, jersey_number: e.target.value })
                 }
                 placeholder="e.g., 7"
-                className="w-full border rounded p-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full border rounded p-2 placeholder:text-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
             </div>
             <button
